@@ -112,7 +112,7 @@ jobs:
               ROOTFS_SIZE=3072
               ;;
             4G)
-              ROOTFS_SIZE=4096
+              ROOTFS_SIZE=16384
               ;;
           esac
           echo "ROOTFS_SIZE=$ROOTFS_SIZE" >> $GITHUB_ENV
